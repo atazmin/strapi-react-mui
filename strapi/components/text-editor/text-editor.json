@@ -1,0 +1,14 @@
+{
+  "collectionName": "textEditor",
+  "info": {
+    "name": "TextEditor",
+    "icon": "text-height",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "richText": {
+      "type": "richtext"
+    }
+  }
+}

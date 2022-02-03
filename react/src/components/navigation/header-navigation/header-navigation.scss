@@ -1,0 +1,21 @@
+.header.header {
+  // border: 1px solid red;
+
+  .header {
+    &__container {
+    }
+
+    &__toolbar {
+    }
+  }
+
+  .navigation {
+    &__item {
+      // border: 1px solid red;
+    }
+
+    &__link {
+      // border: 1px solid white;
+    }
+  }
+}

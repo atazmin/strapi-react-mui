@@ -1,0 +1,34 @@
+{
+  "collectionName": "carouselSlide",
+  "info": {
+    "name": "Slide",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageLink": {
+      "type": "string"
+    },
+    "imageAttributesLargeSize": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "imageAttributesSmallSize": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

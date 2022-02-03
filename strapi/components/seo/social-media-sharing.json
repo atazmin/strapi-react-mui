@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_seo",
+  "info": {
+    "name": "SEO",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "blockSearchIndexing": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/primary-navigation",
+      "handler": "primary-navigation.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/primary-navigation",
+      "handler": "primary-navigation.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/primary-navigation",
+      "handler": "primary-navigation.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

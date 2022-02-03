@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "primaryNavigation",
+  "info": {
+    "name": "PrimaryNavigation",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "primaryNavigationComponents": {
+      "type": "dynamiczone",
+      "components": [
+        "navigation.link",
+        "navigation.dropdown"
+      ]
+    }
+  }
+}

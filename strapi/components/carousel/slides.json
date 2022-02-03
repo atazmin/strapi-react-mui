@@ -1,0 +1,16 @@
+{
+  "collectionName": "carouselSlides",
+  "info": {
+    "name": "Slides",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "carouselSlides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "carousel.carousel"
+    }
+  }
+}

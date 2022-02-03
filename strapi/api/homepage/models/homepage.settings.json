@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "homePage",
+  "info": {
+    "name": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "homepageCarousel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "carousel.slides"
+    },
+    "Cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.social-media-sharing"
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "hidePage": {
+      "type": "boolean"
+    }
+  }
+}

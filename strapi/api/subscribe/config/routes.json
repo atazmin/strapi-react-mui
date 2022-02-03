@@ -1,0 +1,10 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/subscribe",
+      "handler": "Subscribe.send",
+      "config": {}
+    }
+  ]
+}

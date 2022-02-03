@@ -1,0 +1,13 @@
+{
+  "collectionName": "heading",
+  "info": {
+    "name": "Heading",
+    "icon": "grip-lines"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    }
+  }
+}

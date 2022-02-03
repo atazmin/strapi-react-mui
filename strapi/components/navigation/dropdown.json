@@ -1,0 +1,19 @@
+{
+  "collectionName": "navigationDropdown",
+  "info": {
+    "name": "dropdown",
+    "icon": "angle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.link"
+    },
+    "dropdownName": {
+      "type": "string"
+    }
+  }
+}
